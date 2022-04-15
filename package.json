@@ -1,0 +1,20 @@
+{
+  "name": "solana_price_fetch",
+  "version": "1.0.0",
+  "description": "Price fetch bot for Solana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}
